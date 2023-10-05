@@ -52,7 +52,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #444a57;
+	color: #7a4ddb;
 	font-size:20px;
 	padding:0;
     font-weight: 500;
@@ -60,7 +60,7 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#444a57;
+	color:#000;
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
@@ -119,7 +119,7 @@ html,body{height: 100%;}
     margin-left: -42px;
     background: #4e4ffa;
 }
-.section-header p{color: #444a57;text-transform: capitalize;margin-bottom:10px;}
+.section-header p{color: #ae5e5e;text-transform: capitalize;margin-bottom:10px;}
 .section-header h2 span,.section-header p span{text-transform: lowercase;}
 
 /* section-header */
@@ -430,7 +430,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         7. Featured-cars
 --------------------------------------*/
 .featured-cars{
-    background: #d1caca;;
+    background: #2a2d54;
     padding:112px 0 120px;
 }
 .featured-cars-content{padding-top:96px;}
@@ -450,7 +450,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .featured-model-info{padding:12px 7px;}
 .featured-model-info p {
     font-size: 12px;
-    color: #8c92a0;
+    color: #bba5c2;
     text-transform: capitalize;
 }
 .featured-mi-span{display: inline-block;margin:0 10px;}
