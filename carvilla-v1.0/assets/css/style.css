@@ -130,8 +130,9 @@ html,body{height: 100%;}
         2. Top-area
 --------------------------------------*/
 nav.navbar.bootsnav {
-    background-color: transparent;
-    border-bottom: transparent;
+    background-color:black;
+    border-bottom: black;
+    background: transparent;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 
@@ -204,12 +205,30 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------
         3.  Welcome-hero
 --------------------------------------*/
+#homeserv{
+    position: relative;
+    background:black;
+    background-size: 1;
+    height: 100px;
+
+    z-index: 1;
+}
 .welcome-hero {
     position: relative;
     background:url(../images/welcome-hero/welcome-banner.jpg)no-repeat;
     background-position: center;
     background-size: cover;
     z-index: 1;
+    width: 100%;
+  height: cover;
+}
+.welcome-heros {
+    position: relative;
+    background:url(../images/welcome-hero/welcome-banner.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: cover;
+    z-index: 3; 
 }
 .welcome-hero:before {
     position: absolute;
@@ -217,7 +236,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: cover;
     background: rgba(42,45,84,.60);
 }
 .header-area{position: absolute;top:0;left:0;width: 100%;z-index: 99;}
@@ -544,6 +563,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .contact {
     background: #2a2d54;
+    background-size: auto;
+    height: 100pc;
+    width: 100%;
 }
 .footer-top {padding: 112px 0 72px;}
 
