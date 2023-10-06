@@ -452,8 +452,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .featured-model-info{padding:12px 7px;}
 .featured-model-info p {
     font-size: 12px;
-    color: #bba5c2;
-    text-transform: capitalize;
+    color: black;
+    text-transform: full-width;
+    text-align: left;
 }
 .featured-mi-span{display: inline-block;margin:0 10px;}
 .featured-hp-span{display: inline-block;margin-right: 10px;}
