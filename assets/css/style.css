@@ -29,7 +29,7 @@ font-family: 'Rufina', serif;
 --------------------------------------*/
 *{
     padding: 0;
-    margin: 0;
+    margin: -1;
 }
 
 *{
@@ -41,12 +41,13 @@ font-family: 'Rufina', serif;
 }
 body{
 	font-family: 'revert', sans-serif;
-	font-size:16px;
-	color:#eef0f3;
+	font: size 35px;
+	color:white;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
+    text-align: right;
 }
 
 a,a:hover,a:active,a:focus {
@@ -133,7 +134,8 @@ html,body{height: 100%;}
 nav.navbar.bootsnav {
     background-color:black;
     border-bottom: black;
-    background: transparent;
+    background: black;
+    margin-top:-25px;
 }
 .wrap-sticky nav.navbar.bootsnav.sticked {background-color: #000;box-shadow: 0 2px 5px rgba(0,0,0,.2);}
 
@@ -430,7 +432,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         7. Featured-cars
 --------------------------------------*/
 .featured-cars{
-    background: #2a2d54;
+    background: white;
     padding:112px 0 120px;
 }
 .featured-cars-content{padding-top:96px;}
